@@ -1,3 +1,7 @@
-/*
-/*/
-!/src/
+!hello-world/src
+hello-world/public
+hello-world/.gitignore
+hello-world/package-lock.json
+hello-world/package.json
+hello-world/README.md
+hello-world/node_modules
