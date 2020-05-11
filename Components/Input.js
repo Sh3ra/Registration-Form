@@ -4,7 +4,7 @@ class Input extends Component {
     render() {
         return (
             <React.Fragment>
-                <input type={this.props.type} placeholder={this.props.value} className={this.props.className}></input>
+                <input type={this.props.type} placeholder={this.props.value} className={this.props.className} align={this.props.align}></input>
             </React.Fragment>
         )
     }

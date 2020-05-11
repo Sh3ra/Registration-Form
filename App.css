@@ -21,6 +21,18 @@
   height: 30px;
   font-size: 20px;
 }
+.name2-input{
+  float: right;
+  display: inline-block;
+  width: 45%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-width: 2%;
+  border-style: solid;
+  border-color: #000000;
+  height: 30px;
+  font-size: 20px;
+}
 .name-input{
   display: inline-block;
   width: 45%;

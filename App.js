@@ -12,7 +12,10 @@ function App() {
       <Input type={'email'} value={'Email Address...'} className="email-input"/>
       <Label name={'Full Name'} className="email"/>
       <Input value={'First Name...'} className="name-input"/>
-      <Input value={'Last Name...'} className="name-input"/>
+      <Input value={'Last Name...'} className="name2-input"/>
+      <Label name={'Password'} className="email"/>
+      <Input type={'password'} value={'Password...'} className="name-input"/>
+      <Input value={'Confirm Password...'} className="name2-input"/>
       <Button className="signUpButton"/>
     </div>
   );
