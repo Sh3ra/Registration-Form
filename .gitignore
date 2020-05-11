@@ -1,4 +1,3 @@
-/*
 /*/
 !.gitignore
-!hello-world/src/
+!hello-world/src
