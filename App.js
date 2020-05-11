@@ -15,7 +15,7 @@ function App() {
       <Input value={'Last Name...'} className="name2-input"/>
       <Label name={'Password'} className="email"/>
       <Input type={'password'} value={'Password...'} className="name-input"/>
-      <Input value={'Confirm Password...'} className="name2-input"/>
+      <Input type={'password'} value={'Confirm Password...'} className="name2-input"/>
       <Button className="signUpButton"/>
     </div>
   );
