@@ -2,8 +2,8 @@ import React from 'react'
 
 function Label(props) {
     return (
-        <div>
-            <label className={props.className}>{props.name}</label>
+        <div className={props.className}>
+            <label >{props.name}</label>
         </div>
     )
 }
