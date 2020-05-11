@@ -23,7 +23,6 @@
 }
 .name2-input{
   float: right;
-  display: inline-block;
   width: 45%;
   margin-top: 1%;
   margin-bottom: 2%;
@@ -34,7 +33,6 @@
   font-size: 20px;
 }
 .name-input{
-  display: inline-block;
   width: 45%;
   margin-top: 1%;
   margin-bottom: 2%;
