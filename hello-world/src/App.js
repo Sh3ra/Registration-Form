@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Label name={'Create Account'} className="CreateAccount"></Label>
+      <Label name={'Email'} className="email"/>
     </div>
   );
 }
