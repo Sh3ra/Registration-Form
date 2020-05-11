@@ -7,7 +7,7 @@
   margin-bottom: 4%;
   text-align: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 45px;
 }
 .email{
   color: grey;
@@ -16,7 +16,6 @@
   width: 100%;
   margin-top: 1%;
   margin-bottom: 2%;
-  border-width: 2%;
   border-style: solid;
   border-color: #000000;
   height: 30px;
@@ -34,3 +33,10 @@
   font-size: 20px;
 }
 
+.signUpButton{
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin-top : 2%;
+}
