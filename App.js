@@ -10,6 +10,8 @@ function App() {
       <Label name={'Email'} className="email"/>
       <Input type={'email'} value={'Email Address...'} className="email-input"/>
       <Label name={'Full Name'} className="email"/>
+      <Input value={'First Name...'} className="name-input"/>
+      <Input value={'Last Name...'} className="name-input"/>
     </div>
   );
 }
