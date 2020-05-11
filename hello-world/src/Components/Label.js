@@ -3,7 +3,7 @@ import React from 'react'
 function Label(props) {
     return (
         <div>
-            <label>{props.name}</label>
+            <label className={props.className}>{props.name}</label>
         </div>
     )
 }
