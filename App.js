@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Label from './Components/Label';
 import Input from './Components/Input';
+import Button from "./Components/Button";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Label name={'Email'} className="email"/>
       <Input type={'email'} value={'Email Address...'} className="email-input"/>
       <Label name={'Full Name'} className="email"/>
+      <Button className="signUpButton"/>
     </div>
   );
 }
