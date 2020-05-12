@@ -82,10 +82,13 @@ class Form extends Component {
         {
             alert(`Passwords don't match!`);
         }
-        if(user.password.length<8)
+        else if(user.password.length<8)
             alert(`Password Must be more than 8 characters!`)
-        if(user.email==="")
+        else if(user.email==="")
             alert(`You Must Enter Your Email`);
+        else{
+            
+        }
     }
   render() {
     return (
