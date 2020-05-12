@@ -87,7 +87,16 @@ class Form extends Component {
         else if(user.email==="")
             alert(`You Must Enter Your Email`);
         else{
-            
+            let iD=user.email.substr(0,2);
+            iD+=Math.floor(Math.random() * 10);  
+            iD+=Math.floor(Math.random() * 10);  
+            iD+=Math.floor(Math.random() * 10);  
+            this.setState(prevState =>({
+                user:{
+                    ...prevState.user,
+                    id:iD
+                }
+            }))
         }
     }
   render() {
